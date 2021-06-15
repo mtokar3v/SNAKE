@@ -87,4 +87,8 @@ public:
 		SDL_RenderCopy(ren, texture, NULL, rect);
 	}
 
+	virtual void render(int deg)
+	{
+		SDL_RenderCopyEx(ren, texture, NULL, rect, deg, NULL, SDL_FLIP_NONE);
+	}
 };

@@ -148,6 +148,7 @@
     <ClCompile Include="SNAKE.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="apple.h" />
     <ClInclude Include="Background.h" />
     <ClInclude Include="function.h" />
     <ClInclude Include="GameObject.h" />
